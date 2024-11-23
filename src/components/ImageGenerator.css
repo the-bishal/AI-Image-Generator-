@@ -1,0 +1,22 @@
+.loadingBar{
+    transform-origin: left;
+    transition-timing-function: linear;
+}
+
+.genBtn:active{
+    animation: tapping ease-in-out 0.5s;
+}
+
+
+
+@keyframes tapping {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.8);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
