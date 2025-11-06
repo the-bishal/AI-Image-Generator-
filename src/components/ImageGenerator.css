@@ -1,18 +1,16 @@
-/* Loading Bar */
+
 .loadingBar {
-    width: 0%; /* Initial width starts from 0% */
+    width: 0%; 
     height: 0.5rem;
-    background-color: #ec4899; /* Pink color (bg-pink-700) */
-    border-radius: 0.25rem; /* Rounded corners */
-    transition: width 15s ease-in-out; /* Smooth transition for width */
+    background-color: #ec4899; 
+    border-radius: 0.25rem; 
+    transition: width 15s ease-in-out; 
 }
 
-/* GenBtn animation on click */
 .genBtn:active {
     animation: tapping ease-in-out 0.5s;
 }
 
-/* Tapping animation */
 @keyframes tapping {
     0% {
         transform: scale(1);

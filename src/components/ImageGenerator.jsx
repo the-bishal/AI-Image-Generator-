@@ -6,6 +6,7 @@ import "./ImageGenerator.css"
 
 const ImageGenerator = () => {
 
+    
     let inputRef = useRef(null);
     const [prompt, setPrompt] = useState('');
     const [loading, setLoading] = useState(false);
